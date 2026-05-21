@@ -1,6 +1,7 @@
-# Unit 1 Lesson 3 - Loops and Logic
+| [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_2_statements_expressions_datatypes_and_variables) <img width=1000/> | [Home](https://github.com/Kevin-Lago/Java-Course-Guide) <img width=1000/> | [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_4_debugging) <img width=1000> |
+|:---|:---:|---:|
 
-[Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_2_statements_expressions_datatypes_and_variables#unit-1-lesson-2---statements-expressions-data-types-and-variables)
+# Unit 1 Lesson 3 - Loops and Logic
 
 [Lesson Slides](https://docs.google.com/presentation/d/1PGyQbY8l9K4_ZeNZPWz40bR25OVZPmMZsqOhm7lrwcA/edit?usp=sharing)
 
@@ -30,10 +31,6 @@ to read
 - [Compilation and Execution of a Java Program - GeeksforGeeks](https://www.geeksforgeeks.org/compilation-execution-java-program/)
 - [Control Flow Statements - Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/flow.html)
 
-to watch
-
-- []()
-
 ---
 ## Boolean Expressions
 
@@ -55,10 +52,6 @@ boolean blueIsRed = false;
 to read
 
 - [Java Booleans - w3schools](https://www.w3schools.com/java/java_booleans.asp)
-
-to watch
-
-- []()
 
 ---
 ## Relational Operators
@@ -90,12 +83,8 @@ boolean greaterThanOrEqualToExample2 = (2 * 3) >= (60 - 10); // false
 to read
 
 - [Equality, Relational and Conditional Operators - Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)
-- [Java Realational Operators with Examples - GeeksforGeeks](https://www.geeksforgeeks.org/java-relational-operators-with-examples/)
+- [Java Relational Operators with Examples - GeeksforGeeks](https://www.geeksforgeeks.org/java-relational-operators-with-examples/)
 - [Java Operators - w3schools](https://www.w3schools.com/java/java_operators.asp)
-
-to watch
-
-- []()
 
 ---
 ## if Statements
@@ -129,14 +118,10 @@ to read
 - [Java If ... Else - w3schools](https://www.w3schools.com/java/java_conditions.asp)
 - [The if-then and if-then-else Statements - Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
 
-to watch
-
-- []()
-
 ---
 ## if, else Statements
 
-- The else statement will run a block of code for every condition that isnt true.
+- The else statement will run a block of code for every condition that isn't true.
 
 ```java
 if (condition) {
@@ -168,10 +153,6 @@ to read
 
 - [Java If ... Else - w3schools](https://www.w3schools.com/java/java_conditions.asp)
 - [The if-then and if-then-else Statements - Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
-
-to watch
-
-- []()
 
 ---
 ## if, else if, else Statements
@@ -208,24 +189,12 @@ if (8 <= 2) {
 }
 ```
 
-```java
-if (8 <= 2) {
-	System.out.print("This will not be printed to the console");
-} else if (8 >= 48) {
-	System.out.print("This will not be printed to the console");
-} else {
-	System.out.print("This will be printed to the console");
-}
-```
-
 - We can have multiple else if statements.
 
 ```java
 if (8 <= 2) {
 	System.out.print("This will not be printed to the console");
 } else if (8 >= 48) {
-	System.out.print("This will not be printed to the console");
-} else if (8 <= 2) {
 	System.out.print("This will not be printed to the console");
 } else if (8 == 8) {
 	System.out.print("This will be printed to the console");
@@ -241,10 +210,6 @@ to read
 - [Java If ... Else - w3schools](https://www.w3schools.com/java/java_conditions.asp)
 - [The if-then and if-then-else Statements - Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
 
-to watch
-
-- []()
-
 ---
 ## switch Statements
 
@@ -259,7 +224,7 @@ switch (expression) {
 		// execute this code if expression == value2
 		break;
 	default:
-		// executre this code if not match was found
+		// execute this code if no match was found
 		break;
 }
 ```
@@ -290,11 +255,7 @@ switch(x = 4) {
 to read
 
 - [Java Switch - w3schools](https://www.w3schools.com/java/java_switch.asp)
-- [Switch Statements in Java - tutorialspoint](https://www.tutorialspoint.com/java/switch_statement_in_java.htm#:~:text=Advertisements,is%20checked%20for%20each%20case.)
-
-to watch
-
-- []()
+- [Switch Statements in Java - tutorialspoint](https://www.tutorialspoint.com/java/switch_statement_in_java.htm)
 
 ---
 ## Loops
@@ -328,7 +289,7 @@ while(condition) {
 ```
 
 ```java
-// This writes "Hello, World! to the console 5 times
+// This writes "Hello, World!" to the console 5 times
 int i = 0;
 
 while (i < 5) {
@@ -346,7 +307,7 @@ do {
 ```
 
 ```java
-// This writes "Hello, World! to the console 5 times
+// This writes "Hello, World!" to the console 5 times
 int i = 0;
 
 do {
@@ -355,19 +316,15 @@ do {
 } while (i < 5);
 ```
 
-- There're also enhanced for loops which will be covered in lesson 6 - Arrays
+- There are also enhanced for loops which will be covered in lesson 6 - Arrays
 
 ### Helpful Links
 
 to read
 
-- [Java For Loop - GeeksforGeeks](https://www.w3schools.com/java/java_for_loop.asp)
-- [Loops in Java - GeeksforGeeks](https://www.geeksforgeeks.org/loops-in-java/#:~:text=Looping%20in%20programming%20languages%20is,some%20condition%20evaluates%20to%20true.&text=while%20loop%3A%20A%20while%20loop,on%20a%20given%20Boolean%20condition.)
+- [Java For Loop - w3schools](https://www.w3schools.com/java/java_for_loop.asp)
+- [Loops in Java - GeeksforGeeks](https://www.geeksforgeeks.org/loops-in-java/)
 - [Loops in Java - javatpoint](https://www.javatpoint.com/java-for-loop)
-
-to watch
-
-- []()
 
 ---
 ## Activities
@@ -375,26 +332,9 @@ to watch
 - Create a Random Number Generator
 - Use that random number to control the flow of a program
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 
 [Lesson Quiz]()
 
-[Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_4_debugging#unit-1-lesson-4---debugging)
-
-# Full Java Course
-
-<a href="https://github.com/Kevin-Lago/Java-Course-Guide#java-course-guide">
-	<img src="../../java_logo.png" />
-</a>
-
-
+| <img width=1000/> [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_2_statements_expressions_datatypes_and_variables) | <img width=1000/> [Home](https://github.com/Kevin-Lago/Java-Course-Guide) | <img width=1000> [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_4_debugging) |
+|:---|:---:|---:|

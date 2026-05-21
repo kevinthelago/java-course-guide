@@ -1,6 +1,7 @@
-# Unit 1 Lesson 4 - Debugging
+| [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_3_loops_and_logic) <img width=1000/> | [Home](https://github.com/Kevin-Lago/Java-Course-Guide) <img width=1000/> | [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_5_methods) <img width=1000> |
+|:---|:---:|---:|
 
-[Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_3_loops_and_logic#unit-1-lesson-3---loops-and-logic)
+# Unit 1 Lesson 4 - Debugging
 
 [Lesson Slides](https://docs.google.com/presentation/d/12n3w6uJZOmoYhMeCcZnXkBiHMLS3RCe9sPaRFNaY7FI/edit?usp=sharing)
 
@@ -45,12 +46,5 @@ to watch
 
 [Lesson Quiz]()
 
-[Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_5_methods#unit-1-lesson-5---methods)
-
-# Full Java Course
-
-<a href="https://github.com/Kevin-Lago/Java-Course-Guide#java-course-guide">
-	<img src="../../java_logo.png" />
-</a>
-
-
+| <img width=1000/> [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_3_loops_and_logic) | <img width=1000/> [Home](https://github.com/Kevin-Lago/Java-Course-Guide) | <img width=1000> [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_5_methods) |
+|:---|:---:|---:|

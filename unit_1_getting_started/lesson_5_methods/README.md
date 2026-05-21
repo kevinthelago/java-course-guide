@@ -1,31 +1,21 @@
-# Unit 1 Lesson 5 - Methods
+| [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_4_debugging) <img width=1000/> | [Home](https://github.com/Kevin-Lago/Java-Course-Guide) <img width=1000/> | [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_6_arrays) <img width=1000> |
+|:---|:---:|---:|
 
-[Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_4_debugging#unit-1-lesson-4---debugging)
+# Unit 1 Lesson 5 - Methods
 
 [Lesson Slides](https://docs.google.com/presentation/d/1IUt6Od3-mm4HAWt6zHqt570D84MwOOG9pW7pmRkCPZs/edit?usp=sharing)
 
 ---
-## DONT REPEAT YOURSELF!
+## Don't Repeat Yourself!
 
-- DONT REPEAT YOURSELF! wait..
-- As you progress in the world of coding you'll notice duplicates of code!
+- Don't Repeat Yourself! As you progress in the world of coding you'll notice duplicates of code!
 - Methods allow us to write code once and use it multiple times!
-
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
 
 ---
 ## Methods
 
 - Methods reside within Objects/Classes
-- Methods allows us to reuse code
+- Methods allow us to reuse code
 - Methods help us organize our code
 
 ```xml
@@ -53,50 +43,20 @@ public static int add(int a, int b) {
 }
 ```
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Access Modifiers
 
-- We can use the following modifiers to define a Methods scope
+- We can use the following modifiers to define a Method's scope
 	- public
 	- protected
 	- private
 	- Default
-
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
 
 ---
 ## Return Types
 
 - Methods can return data to where they are called.
 - If a Method does not have a return type we use void.
-
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
 
 ---
 ## Method Names
@@ -108,31 +68,11 @@ to watch
 	- countSeconds
 	- calculateTotal
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Method Parameters
 
 - Parameters are placeholders for variables that will be passed into a method.
 - A Method can take from 0 to 255 Parameters
-
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
 
 ---
 ## Method Exceptions
@@ -140,22 +80,12 @@ to watch
 - Method Exceptions are how we catch and throw expected errors.
 - Exceptions give us more freedom on how to handle those expected errors.
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Method Signature
 
-- A Methods signature is how Java uniquely identifies methods
+- A Method's signature is how Java uniquely identifies methods
 - Java Identifies Methods via:
-	- A Methods name
+	- A Method's name
 	- The list of Parameters
 
 - Here are some examples:
@@ -164,16 +94,6 @@ to watch
 	- addNumbers(int a, int b)
 	- addNumbers(int a, int b, int c)
 	- addNumbers(int a, int b, int c, int d)
-
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
 
 ---
 ## Method Types
@@ -210,16 +130,6 @@ public static String returnFullName(String firstName, String lastName) {
 }
 ```
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Activities
 
@@ -227,26 +137,9 @@ to watch
 - Call those Methods
 - Understand scope and return types
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 
 [Lesson Quiz]()
 
-[Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_6_arrays#unit-1-lesson-6---arrays)
-
-# Full Java Course
-
-<a href="https://github.com/Kevin-Lago/Java-Course-Guide#java-course-guide">
-	<img src="../../java_logo.png" />
-</a>
-
-
+| <img width=1000/> [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_4_debugging) | <img width=1000/> [Home](https://github.com/Kevin-Lago/Java-Course-Guide) | <img width=1000> [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_6_arrays) |
+|:---|:---:|---:|

@@ -1,0 +1,19 @@
+env:
+  http:
+    security:
+      apiKey:
+        header: api_key
+        value: abc
+
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:

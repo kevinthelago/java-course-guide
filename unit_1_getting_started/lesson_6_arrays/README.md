@@ -1,6 +1,7 @@
-# Unit 1 Lesson 6 - Arrays
+| [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_5_methods) <img width=1000/> | [Home](https://github.com/Kevin-Lago/Java-Course-Guide) <img width=1000/> | [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_2_beginner_java/lesson_1_object_oriented_programming) <img width=1000> |
+|:---|:---:|---:|
 
-[Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_5_methods#unit-1-lesson-5---methods)
+# Unit 1 Lesson 6 - Arrays
 
 [Lesson Slides](https://docs.google.com/presentation/d/12SsbLA1HV4kX1I71zBAGQC0I2icgxCpkWr3B5zB9iB0/edit?usp=sharing)
 
@@ -20,16 +21,6 @@
 	- 64
 	- 78
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Declaring Arrays
 
@@ -44,16 +35,6 @@ String[] exampleStringArrayDeclaration;
 int[] exampleIntArrayDeclaration;
 ```
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Initializing Arrays
 
@@ -66,16 +47,6 @@ String[] stringArray = new String[5];
 String[] listOfCarBrands = { "Toyota", "Ford", "Chrysler", "Mazda", "Bentley" };
 ```
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Array Elements
 
@@ -83,7 +54,7 @@ to watch
 - The location of each element is indicated by a numerical index.
 
 ```java
-String[] listOfFruits = { "apples", "bananas", "oranges", "peaches" }
+String[] listOfFruits = { "apples", "bananas", "oranges", "peaches" };
 ```
 
 | Element   | index |
@@ -94,7 +65,7 @@ String[] listOfFruits = { "apples", "bananas", "oranges", "peaches" }
 | "peaches" | 3     |
 
 ```java
-int[] listOfNumbers = { 3, 1, 2, 0 }
+int[] listOfNumbers = { 3, 1, 2, 0 };
 ```
 
 | Element | index |
@@ -132,16 +103,6 @@ stringArray[3] = "index";
 | "at"     | 2     |
 | "index"  | 3     |
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 ## Loops and Arrays
 
@@ -149,7 +110,7 @@ to watch
 - We can use ".length" to get the length of that array.
 
 ```java
-String[] listOfCarBrands = { "Toyota", "Ford", "Chrysler", "Mazda", "Bentley" }
+String[] listOfCarBrands = { "Toyota", "Ford", "Chrysler", "Mazda", "Bentley" };
 
 for (int i = 0; i < listOfCarBrands.length; i++) {
 	System.out.println(listOfCarBrands[i]);
@@ -159,22 +120,12 @@ for (int i = 0; i < listOfCarBrands.length; i++) {
 - Another way we can loop through an array is an enhanced for loop.
 
 ```java
-String[] listOfCarBrands = { "Toyota", "Ford", "Chrysler", "Mazda", "Bentley" }
+String[] listOfCarBrands = { "Toyota", "Ford", "Chrysler", "Mazda", "Bentley" };
 
 for (String brand : listOfCarBrands) {
 	System.out.println(brand);
 }
 ```
-
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
 
 ---
 ## Activities
@@ -184,26 +135,9 @@ to watch
 - Loop through those arrays
 - Find the min max and average of an array of ints
 
-### Helpful Links
-
-to read
-
-- []()
-
-to watch
-
-- []()
-
 ---
 
 [Lesson Quiz]()
 
-[Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_2_understanding_java/lesson_1_classes_and_objects#unit-2-lesson-1-classes-and-objects)
-
-# Full Java Course
-
-<a href="https://github.com/Kevin-Lago/Java-Course-Guide#java-course-guide">
-	<img src="../../java_logo.png" />
-</a>
-
-
+| <img width=1000/> [Previous Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_5_methods) | <img width=1000/> [Home](https://github.com/Kevin-Lago/Java-Course-Guide) | <img width=1000> [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_2_beginner_java/lesson_1_object_oriented_programming) |
+|:---|:---:|---:|

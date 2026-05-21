@@ -1,3 +1,6 @@
+| [Home](https://github.com/Kevin-Lago/Java-Course-Guide) <img width=1000/> | [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_2_statements_expressions_datatypes_and_variables) <img width=1000> |
+|:---:|---:|
+
 # Unit 1 Lesson 1 - Introduction to Java
 
 [![Unit 1 Lesson 1 Video](video.png)](https://www.youtube.com/watch?v=vqSmKGQokzM)
@@ -27,16 +30,18 @@ to watch
 - [James Gosling History - Computer History Museum](https://www.youtube.com/watch?v=TJ6XHroNewc)
 
 ---
-## JRE and JDK
+## JRE, JVM and JDK
 
-- The Java Runtime Environment or [JRE](https://github.com/Kevin-Lago/Java-Course-Guide/tree/unit1/unit_1_getting_started/#JRE) basically runs Java programs.
-- The Java Development Kit or JDK is essentially a set of tools to create Java applications.
+- The Java Runtime Environment or [JRE](https://en.wikipedia.org/wiki/Java_(software_platform)#Java_Runtime_Environment) basically runs Java programs.
+- The Java Virtual Machine or [JVM](https://en.wikipedia.org/wiki/Java_virtual_machine) is a virtual machine that enables computers to run Java-Bytecode.
+- Unlike other languages, Java is first converted into Java-Bytecode before being converted into Machine-Code by the JVM. Because of this Java can run on anything that has a JVM.
+- The Java Development Kit or [JDK](https://en.wikipedia.org/wiki/Java_Development_Kit) is essentially a set of tools to create Java applications.
 
 ### Helpful Links
 
 to read
 
-- [JDK, JRE and JVM - guru99](https://www.guru99.com/difference-between-jdk-jre-jvm.html#:~:text=JDK%20and%20JRE.-,KEY%20DIFFERENCES,an%20environment%20for%20executing%20bytecode.&text=JDK%20is%20platform%20dependent%2C%20JRE,for%20developing%2C%20debugging%2C%20etc.)
+- [JDK, JRE and JVM - guru99](https://www.guru99.com/difference-between-jdk-jre-jvm.html)
 - [JDK - wiki](https://en.wikipedia.org/wiki/Java_Development_Kit)
 - [JVM - wiki](https://en.wikipedia.org/wiki/Java_virtual_machine)
 
@@ -48,10 +53,12 @@ to watch
 ---
 ## Oracle Java vs OpenJDK
 
-- The main difference between Oracle Java and OpenJDK is licensing. 
+- The main difference between Oracle Java and OpenJDK is licensing.
 - Oracle Java is commercially supported, released and distributed by Oracle.
 - Oracle Java has an OTN (Oracle Technology Network) License.
+- Oracle provides Long Time Support (LTS) for their JDK. You can view this here [Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 - OpenJDK is community supported and has a GPL. (General Public License)
+- There are many [derivatives of OpenJDK](https://en.wikipedia.org/wiki/OpenJDK#OpenJDK_builds) such as AdoptOpenJDK, Amazon Corretto and SAP SapMachine.
 
 ### Helpful Links
 
@@ -68,7 +75,6 @@ to watch
 ---
 ## IDEs
 
-- Where the magic happens.
 - Integrated Development Environments or IDEs are basically a super text editor.
 - IDEs have features and tools that makes creating software easier.
 - There're several IDEs you could use.
@@ -96,7 +102,7 @@ to watch
 
 - Jakarta is an Enterprise Edition of Java.
 - Older versions are called JavaEE, and the oldest J2EE.
-- The EE versions of Java provide tools to create enterprise level applications.
+- The Enterprise Editions of Java provide tools to create enterprise level applications such as [Jakarta Servlet](https://en.wikipedia.org/wiki/Jakarta_Servlet), [JAX-RS](https://en.wikipedia.org/wiki/Jakarta_RESTful_Web_Services) and [JPA](https://en.wikipedia.org/wiki/Jakarta_Persistence).
 
 ### Helpful Links
 
@@ -112,8 +118,7 @@ to watch
 ---
 ## Java Frameworks
 
-- Java Frameworks provide more tools to create applications
-- Some examples include:
+- [Java Frameworks](https://en.wikipedia.org/wiki/List_of_Java_frameworks) provide more tools to create applications. Some examples include:
 	- Spring
 	- RabbitMQ
 	- Mockito
@@ -154,10 +159,5 @@ to watch
 
 [Lesson Quiz](https://docs.google.com/forms/d/1xv316sTfA12PUxXmN3K5oGkq3kesilNqRxaL3psGlec/viewform?edit_requested=true)
 
-[Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_2_statements_expressions_datatypes_and_variables#unit-1-lesson-2---statements-expressions-data-types-and-variables)
-
-# Java Course Guide
-
-<a href="https://github.com/Kevin-Lago/Java-Course-Guide#java-course-guide">">
-	<img src="../../java_logo.png" />
-</a>
+| <img width=1000/> [Home](https://github.com/Kevin-Lago/Java-Course-Guide) | <img width=1000> [Next Lesson](https://github.com/Kevin-Lago/Java-Course-Guide/tree/master/unit_1_getting_started/lesson_2_statements_expressions_datatypes_and_variables) |
+|:---:|---:|
